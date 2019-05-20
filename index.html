@@ -1,37 +1,17 @@
 
-<!-- 
-    Es importante el uso de contenedores para envolver nuestros elementos
-    y darles caracteristicas especificas a cada uno de estos.
--->
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>John Faber Flórez</title>
         <link rel="icon" type="images/png" href="images/favicon.png">
-        <!-- fuentes de texto externas -->
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
-        <!-- estilos en un archivo externo -->
         <link rel="stylesheet" href="css/estilos.css">
-        <!-- <style>
-            nav {
-                background: green;
-            }
-            header {
-                background: green;
-            }
-        </style> -->
     </head>
     <body>
-        <!-- si se tienen dos estilos a la misma propieda se cumple jerarquias -->
         <header class="header">
-        <!-- <header style="color: red; background: blue;"> -->
             <div class="container">
                 <h1>Mi Portafolio</h1>
-                <!-- <figure class="logo">
-                    <img src="images/logo.png" height="50px" alt="Logo de http://johnflorez.com">
-                </figure> -->
                 <nav class="menu">
                     <ul>
                         <li>
@@ -53,17 +33,13 @@
                     Hola soy <strong>John Faber Florez</strong> <br> desarrollador   
                     <strong>FrontEnd</strong> con <br> enfásis en <strong>JavaScript</strong>
                 </h1>
-                <img  class="hero-image" src="images/hero.jpg" alt="Imagen principal del sitio"> 
+                <img  class="hero-image" src="images/hero.png" alt="Imagen principal del sitio"> 
             </div>
         </section>
         <section id="portafolio" class="portfolio">
-            <!-- agregamos el contenedor -->
             <div class="container">
                 <h2>Portafolio (Proyectos Destacados)</h2>
                 <article class="project">
-                    <!-- los div ayudan en momento en donde dentro de distintas 
-                        secciones tengo la necesidad de envolver ciertos componentes 
-                        para realizar una tarea específica -->
                     <div class="project-details">
                         <h3 class="project-title">Academia Geek</h3>
                         <h6 class="project-course">Agile Innova</h6>
@@ -75,7 +51,6 @@
                             camino en el emprendimiento tecnológico o trabajar con alguno de nuestros aliados.
                         </p>
                     </div>
-                    <!-- Conteiner o rapers funcionan como la envoltura de nuestra imagen -->
                     <figure class="project-imageContainer">
                         <img class="project-image" src="images/academia-geek.jpg" width="500" height="400" alt="">
                     </figure> 
